@@ -29,7 +29,6 @@ public class DutchNationalFlag {
                 arr[mid] = temp;
                 end --;
             }
-            System.out.println("Step Array:"+Arrays.toString(arr));
         }
         System.out.println("Array:"+Arrays.toString(arr));
     }
