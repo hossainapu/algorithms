@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MergeArray {
 
-    private static void merge(int[] first, int[] second) {
+    public static void merge(int[] first, int[] second) {
 
         int firstLength = first.length;
         int secondLength = second.length;
