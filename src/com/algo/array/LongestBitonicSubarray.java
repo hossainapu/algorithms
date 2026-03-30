@@ -7,6 +7,9 @@ public class LongestBitonicSubarray {
     private static List<Integer> findMaxSubArrayLength(List<Integer> nums) {
 
         List<Integer> tobeRetuned = new ArrayList<>();
+        if(nums == null || nums.isEmpty()) {
+            return tobeRetuned;
+        }
         int previousMin = 0;
         int maxLength = Integer.MIN_VALUE;
         int start = Integer.MAX_VALUE;
