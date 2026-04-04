@@ -19,8 +19,8 @@ public class ContinuousMaxSumSubArray {
 
         int maxEndingHere = 0;
 
-        for (int i =0; i< A.length;i++) {
-            maxEndingHere +=A[i];
+        for (int j : A) {
+            maxEndingHere += j;
             maxEndingHere = Math.max(maxEndingHere, 0);
             maxSum = Math.max(maxSum, maxEndingHere);
         }
